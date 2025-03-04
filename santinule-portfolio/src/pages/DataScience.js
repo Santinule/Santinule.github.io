@@ -2,27 +2,35 @@ import React from 'react';
 
 function DataScience() {
   return (
-    <div className="text-white">
-      <h1 className="text-4xl font-bold mb-6">Data Science Projects</h1>
-      <div className="space-y-6">
-        <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold mb-3">Project 1</h2>
-          <p className="mb-4">Description of your data science project goes here.</p>
-          <div className="flex space-x-4">
-            <a href="#" className="text-blue-400 hover:text-blue-300">View Project</a>
-            <a href="#" className="text-blue-400 hover:text-blue-300">GitHub</a>
-          </div>
-        </div>
-        
-        <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold mb-3">Project 2</h2>
-          <p className="mb-4">Description of your data science project goes here.</p>
-          <div className="flex space-x-4">
-            <a href="#" className="text-blue-400 hover:text-blue-300">View Project</a>
-            <a href="#" className="text-blue-400 hover:text-blue-300">GitHub</a>
-          </div>
+    <div className="content-container">
+      <h1 className="main-heading">Data Science Projects</h1>
+      
+      <div className="project-item">
+        <h2 className="project-title">Data Analysis Project</h2>
+        <p className="project-description">
+          This project involved analyzing large datasets to extract meaningful insights 
+          and develop predictive models. Used techniques such as regression analysis, 
+          classification, and clustering.
+        </p>
+        <div className="project-links">
+          <a href="#" className="project-link">View Project</a>
+          <a href="#" className="project-link">GitHub Repository</a>
         </div>
       </div>
+      
+      <div className="project-item">
+        <h2 className="project-title">Visualization Dashboard</h2>
+        <p className="project-description">
+          Created an interactive dashboard to visualize complex data trends and patterns.
+          Implemented using modern visualization libraries and techniques for data exploration.
+        </p>
+        <div className="project-links">
+          <a href="#" className="project-link">View Project</a>
+          <a href="#" className="project-link">GitHub Repository</a>
+        </div>
+      </div>
+      
+      {/* Add more projects as needed */}
     </div>
   );
 }

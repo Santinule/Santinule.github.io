@@ -1,22 +1,31 @@
 import React from 'react';
-import homeImage from './assets/home_pic.png';
+import homeImage from '../assets/home_pic.png';
 
 function Home() {
   return (
-    <div className="text-white">
-      <h1 className="text-4xl font-bold mb-6">Welcome to My Portfolio</h1>
-      <div className="flex flex-col md:flex-row items-center mb-8">
-        <div className="md:w-1/3 mb-4 md:mb-0">
+    <div className="content-container">
+      <h1 className="main-heading">Santiago Nule</h1>
+      <div className="profile-section">
+        <div className="profile-image-container">
           <img 
             src={homeImage} 
-            alt="Santinule" 
-            className="rounded-lg shadow-lg max-w-full h-auto"
-            style={{ maxWidth: '250px' }}
+            alt="Santiago Nule" 
+            className="profile-image"
           />
         </div>
-        <div className="md:w-2/3 md:pl-6">
-          <p className="mb-4">Hi, I'm Santinule. I'm passionate about data science, machine learning, and software development.</p>
-          <p>This portfolio showcases my projects and interests in these areas.</p>
+        <div className="profile-bio">
+          <p className="bio-text">
+            <strong>About me:</strong>
+          </p>
+          <ul className="bio-list">
+            <li>I am a CS masters student at Johns Hopkins currently living in Baltimore, MD</li>
+            <li>I was born in Bogota, Colombia and spent my childhood there</li>
+            <li>However, I have spent most of my life living in the USA on the East Coast</li>
+            <li> I have also lived in the UK and Italy. I love English breakfast, Premier League, Pizza e Calcio</li>
+            <li>I have two bachelor's degrees: Mathematics and Economics, & Data Science</li>
+            <li>Actively working on engineering problems and looking to collaborate on interesting projects</li>
+            <li>I enjoy listening to blues, jazz, house, and electronic music</li>
+          </ul>
         </div>
       </div>
     </div>
