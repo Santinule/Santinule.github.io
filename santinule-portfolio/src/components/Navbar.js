@@ -51,7 +51,7 @@ function Navbar() {
       {/* Mobile Navigation */}
       <div className="mobile-nav">
         <div className="mobile-nav-container">
-          <div className="mobile-nav-title">Santiago Nule</div>
+          <div className="mobile-nav-title"></div>
           <button className="mobile-menu-button" onClick={toggleMenu}>
             ☰
           </button>
