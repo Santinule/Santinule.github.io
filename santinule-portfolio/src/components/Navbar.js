@@ -1,20 +1,92 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div className="w-64 bg-gray-900 p-6">
-      <h2 className="text-2xl font-bold mb-8 text-center text-white">Santinule</h2>
-      <nav>
-        <ul className="space-y-4">
-          <li><Link to="/" className="text-white hover:text-gray-300 block">Home</Link></li>
-          <li><Link to="/data-science" className="text-white hover:text-gray-300 block">Data Science</Link></li>
-          <li><Link to="/machine-learning" className="text-white hover:text-gray-300 block">Machine Learning</Link></li>
-          <li><Link to="/software-development" className="text-white hover:text-gray-300 block">Software Development</Link></li>
-          <li><Link to="/hobbies" className="text-white hover:text-gray-300 block">Hobbies/Interests</Link></li>
-        </ul>
-      </nav>
-    </div>
+    <>
+      {/* Desktop Sidebar */}
+      <div className="sidebar">
+        <div className="nav-section">
+          <p className="nav-heading">NAVIGATION</p>
+          <nav className="nav-links">
+            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/data-science" className="nav-link">Data Science</Link>
+            <Link to="/machine-learning" className="nav-link">Machine Learning</Link>
+            <Link to="/software-development" className="nav-link">Software Development</Link>
+            <Link to="/hobbies" className="nav-link">Hobbies/Interests</Link>
+          </nav>
+        </div>
+        
+        <div className="nav-section">
+          <p className="nav-heading">FIND ME ON</p>
+          <div className="social-links">
+            <a 
+              href="https://github.com/Santinule" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="social-link"
+            >
+              <div className="social-icon github-icon"></div>
+              <span>GitHub</span>
+            </a>
+            <a 
+              href="https://linkedin.com/in/Santiagonule" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="social-link"
+            >
+              <div className="social-icon linkedin-icon"></div>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Navigation */}
+      <div className="mobile-nav">
+        <div className="mobile-nav-container">
+          <div className="mobile-nav-title">Santiago Nule</div>
+          <button className="mobile-menu-button" onClick={toggleMenu}>
+            ☰
+          </button>
+        </div>
+        <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
+          <nav className="mobile-nav-links">
+            <Link to="/" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Home</Link>
+            <Link to="/data-science" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Data Science</Link>
+            <Link to="/machine-learning" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Machine Learning</Link>
+            <Link to="/software-development" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Software Development</Link>
+            <Link to="/hobbies" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Hobbies/Interests</Link>
+          </nav>
+          <div className="mobile-social-links">
+            <a 
+              href="https://github.com/Santinule" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="mobile-social-link"
+            >
+              <div className="social-icon github-icon"></div>
+              <span>GitHub</span>
+            </a>
+            <a 
+              href="https://linkedin.com/in/Santiagonule" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="mobile-social-link"
+            >
+              <div className="social-icon linkedin-icon"></div>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
