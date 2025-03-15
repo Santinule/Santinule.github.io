@@ -16,6 +16,7 @@ function Navbar() {
           <p className="nav-heading">NAVIGATION</p>
           <nav className="nav-links">
             <Link to="/" className="nav-link">Home</Link>
+              <Link to="/reading-list" className="nav-link">Reading List</Link>
             <Link to="/data-science" className="nav-link">Data Science</Link>
             <Link to="/machine-learning" className="nav-link">Machine Learning</Link>
             <Link to="/software-development" className="nav-link">Software Development</Link>
@@ -59,6 +60,7 @@ function Navbar() {
         <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
           <nav className="mobile-nav-links">
             <Link to="/" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Home</Link>
+            <Link to="/reading-list" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Reading List</Link>
             <Link to="/data-science" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Data Science</Link>
             <Link to="/machine-learning" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Machine Learning</Link>
             <Link to="/software-development" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Software Development</Link>

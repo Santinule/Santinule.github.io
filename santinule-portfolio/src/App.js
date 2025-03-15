@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import homeImage from './assets/home_pic.png';
 import Navbar from './components/Navbar';
+import ReadingList from './pages/ReadingList';
 
 function App() {
   // Page components with better styling
@@ -24,17 +25,23 @@ function App() {
           )}
         </div>
         <div className="profile-bio">
-          <p className="bio-text">
-            <strong>About me:</strong>
-          </p>
+          <h2 className="bio-heading">About me:</h2>
           <ul className="bio-list">
             <li>I am a CS masters student at Johns Hopkins currently living in Baltimore, MD</li>
-            <li>I was born in Bogota, Colombia and spent my childhood there</li>
-            <li>However, I have spent most of my life living in the USA on the East Coast</li>
-            <li> I have also lived in the UK, and Italy. I enjoy English breakfast, Premier League; Pizza, e Calcio</li>
-            <li>I have two bachelor's degrees: Mathematics and Economics, & Data Science</li>
-            <li>Actively working on engineering problems and looking to collaborate on interesting projects</li>
-            <li>I enjoy listening to blues, jazz, house, and electronic music</li>
+            <li>I was born in Colombia, and spent most of my childhood there. 
+              However, I have spent most of my life living on the East Coast. I have also lived in the UK and Italy.</li>
+            <li>I have two bachelors: Mathematics and Economics, & Data Science</li>
+            <li>My philosophical interpretation of reality centers on predicate dualism—which I see as more fundamental than but complementary to property dualism's distinction between mental and physical properties</li>
+          </ul>
+          
+          <h2 className="bio-heading">My interests:</h2>
+          <ul className="bio-list">
+            <li>Science, mainly through statistical analysis</li>
+            <li>Programming: building software as well as building software through data</li>
+            <li>Art, specially in the form of fashion, styling, and architecture. Music is the queen of the arts, I enjoy listening to blues,
+               jazz, house, and electronic music</li>
+            <li>Meeting diverse people with diverse frameworks of thinking</li>
+            <li>Reading, non fiction only. Check out my reading list</li>
           </ul>
         </div>
       </div>
@@ -69,6 +76,8 @@ function App() {
     </div>
   );
 
+  
+
   return (
     <Router>
       <div className="app-container">
@@ -83,6 +92,7 @@ function App() {
             <Route path="/machine-learning" element={<MachineLearning />} />
             <Route path="/software-development" element={<SoftwareDevelopment />} />
             <Route path="/hobbies" element={<Hobbies />} />
+            <Route path="/reading-list" element={<ReadingList />} />
           </Routes>
         </div>
       </div>
