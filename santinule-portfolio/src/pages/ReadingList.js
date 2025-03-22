@@ -1,4 +1,7 @@
 import React from 'react';
+import sapiensCover from '../assets/books/sapiens.jpg';
+import howNotToBeWrongCover from '../assets/books/hownottobewrong.jpg';
+import sssaw from '../assets/books/sssaw.jpg';
 
 function ReadingList() {
   const books = [
@@ -6,36 +9,51 @@ function ReadingList() {
       title: "Sapiens",
       author: "Yuval Noah Harari",
       category: "History",
-      description: "A brief history of humankind",
-      coverImage: "https://m.media-amazon.com/images/I/713jIoMO3UL._SL1500_.jpg",
-      link: "https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095"
+      description: "This book is much more than a brief history of humankind. Harari does an excellent job extrapolating from physical evolution and natural selection into the metaphysical idea of story-guided evolution. It enlightens us with the ideal that culture, religion, and nations are superseded by powerful stories.",
+      coverImage: sapiensCover
     },
     {
       title: "How Not to Be Wrong: The Power of Mathematical Thinking",
       author: "Jordan Ellenberg",
       category: "Mathematics",
       description: "Why thinking in a mathematical way is imperative for interpreting a seemingly uncomplex world.",
-      coverImage: "/api/placeholder/80/120?text=How+Not+To+Be+Wrong",
-      link: "https://www.amazon.com/How-Not-Be-Wrong-Mathematical/dp/0143127535"
-    }
+      coverImage: howNotToBeWrongCover
+    },
+    {
+      title: "Several Short Sentences About Writing",
+      author: "Verlyn Klinkenborg",
+      category: "Writing",
+      description: "Writing is probably one of the most important skills one can have. The misconception that as a writer you are constrained by syntax and grammar needs to be eradicated. Writing is simply a physical manifestation of an idea—you have them all the time—it may be elaborated and pruned later, or perhaps never: that is in your power. Read this right now, and then read it again.",
+      coverImage: sssaw 
+    },
   ];
 
   return (
     <div className="content-container">
       <h1 className="main-heading">Reading List</h1>
-      <p className="bio-text">Books that have influenced my thinking:</p>
+      
+      <div className="reading-introduction">
+        <p className="bio-text">
+          Reading is a special way of consuming stories, different from other content consumption methods, here: you direct the flow of the story. 
+          You are able to pause, ponder—create new undefined connections that emerge uniquely through your personal interpretation.
+        </p>
+        <p className="bio-text">
+          Throughout my life, reading has been a recurrent source of inspiration and joy— more than that, it has unimaginably transformed my worldview. 
+          Losing myself in a book has provided a cloudless calm in my life.
+        </p>
+        <p className="bio-text">
+          Below, I am sharing the stories I feel have positively influenced my life.
+        </p>
+      </div>
       
       <div className="reading-list">
         {books.map((book, index) => (
           <div key={index} className="project-item">
-            <div style={{ display: "flex", gap: "20px" }}>
-              <a 
-                href={book.link}
-                target="_blank"
-                rel="noopener noreferrer"
+            <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
+              <div 
                 style={{ 
-                  width: "80px", 
-                  height: "120px", 
+                  width: "100px", 
+                  height: "150px", 
                   flexShrink: 0, 
                   borderRadius: "8px", 
                   overflow: "hidden",
@@ -54,27 +72,14 @@ function ReadingList() {
                   }}
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = "https://via.placeholder.com/80x120?text=No+Cover";
+                    e.target.src = "https://via.placeholder.com/100x150?text=No+Cover";
                   }}
                 />
-              </a>
-              <div>
-                <h3 className="project-title">
-                  <a 
-                    href={book.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      color: "inherit",
-                      textDecoration: "none",
-                      borderBottom: "1px dotted currentColor"
-                    }}
-                  >
-                    {book.title}
-                  </a>
-                </h3>
-                <p style={{ fontStyle: "italic", marginBottom: "8px" }}>by {book.author}</p>
-                <span style={{ 
+              </div>
+              <div className="book-details">
+                <h3 className="project-title">{book.title}</h3>
+                <p className="book-author">by {book.author}</p>
+                {book.category && <span style={{ 
                   display: "inline-block",
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   padding: "4px 8px",
@@ -83,7 +88,7 @@ function ReadingList() {
                   marginBottom: "16px"
                 }}>
                   {book.category}
-                </span>
+                </span>}
                 <p className="project-description">{book.description}</p>
               </div>
             </div>
