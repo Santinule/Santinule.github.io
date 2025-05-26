@@ -14,19 +14,21 @@ function ReadingList() {
       coverImage: sapiensCover
     },
     {
-      title: "How Not to Be Wrong: The Power of Mathematical Thinking",
-      author: "Jordan Ellenberg",
-      category: "Mathematics",
-      description: "Why thinking in a mathematical way is imperative for interpreting a seemingly uncomplex world.",
-      coverImage: howNotToBeWrongCover
-    },
-    {
       title: "Several Short Sentences About Writing",
       author: "Verlyn Klinkenborg",
       category: "Writing",
       description: "Writing is probably one of the most important skills one can have. The misconception that as a writer you are constrained by syntax and grammar needs to be eradicated. Writing is simply a physical manifestation of an idea—you have them all the time—it may be elaborated and pruned later, or perhaps never: that is in your power. Read this right now, and then read it again.",
       coverImage: sssaw 
     },
+    
+    {
+      title: "How Not to Be Wrong: The Power of Mathematical Thinking",
+      author: "Jordan Ellenberg",
+      category: "Mathematics",
+      description: "Why thinking in a mathematical way is imperative for interpreting a seemingly uncomplex world.",
+      coverImage: howNotToBeWrongCover
+    },
+
     {
       title: "The Sun does Shine: How I Found Life and Freedom on Death Row",
       author: "Anthony Ray Hinton",
