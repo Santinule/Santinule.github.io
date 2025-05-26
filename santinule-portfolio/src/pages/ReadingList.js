@@ -2,6 +2,7 @@ import React from 'react';
 import sapiensCover from '../assets/books/sapiens.jpg';
 import howNotToBeWrongCover from '../assets/books/hownottobewrong.jpg';
 import sssaw from '../assets/books/sssaw.jpg';
+import TSDS from '../assets/books/TSDS.jpg';
 
 function ReadingList() {
   const books = [
@@ -26,6 +27,13 @@ function ReadingList() {
       description: "Writing is probably one of the most important skills one can have. The misconception that as a writer you are constrained by syntax and grammar needs to be eradicated. Writing is simply a physical manifestation of an idea—you have them all the time—it may be elaborated and pruned later, or perhaps never: that is in your power. Read this right now, and then read it again.",
       coverImage: sssaw 
     },
+    {
+      title: "The Sun does Shine: How I Found Life and Freedom on Death Row",
+      author: "Anthony Ray Hinton",
+      category: "Memoir",
+      description: "Life is simply not fair. Amid the inherent unfairness of life, it is still possible to find happiness and make a positive impact—no matter the circumstances. In this compelling memoir, Anthony Ray Hinton shares his remarkable story of how he discovered hope and joy while on death row. I have never supported the death penalty, as the false positive rate is simply too high—estimated at 10% when this book was written. I encourage everyone, whether they agree or disagree, to read this powerful story.",
+      coverImage: TSDS
+    }
   ];
 
   return (

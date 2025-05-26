@@ -24,7 +24,7 @@ function Home() {
           <ul className="bio-list">
             <li>I am a CS masters student at Johns Hopkins currently living in Baltimore, MD</li>
             <li>I was born in Colombia, and spent most of my childhood there. 
-              However, I have spent most of my life living on the East Coast. I have also lived in the UK and Italy.</li>
+              However, I have spent most of my life living on the East Coast. I have also lived in the UK and Italy</li>
             <li>I have two bachelors: Mathematics and Economics, & Data Science</li>
             <li>My philosophical interpretation of reality centers on predicate dualism—which I see as more fundamental than but complementary to property dualism's distinction between mental and physical properties</li>
           </ul>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import ReadingList from './pages/ReadingList';
@@ -13,10 +13,10 @@ function App() {
 
         {/* Main Content Area */}
         <div className="main-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/reading-list" element={<ReadingList />} />
-          </Routes>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/reading-list" component={ReadingList} />
+          </Switch>
         </div>
       </div>
     </Router>
