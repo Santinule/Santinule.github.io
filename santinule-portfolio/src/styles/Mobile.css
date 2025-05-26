@@ -1,0 +1,184 @@
+/* Mobile Navigation Styles */
+@media (max-width: 768px) {
+  /* Hide desktop sidebar on mobile */
+  .sidebar {
+    display: none;
+  }
+  
+  /* Reset main content margin on mobile */
+  .main-content {
+    margin-left: 0;
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  /* App container padding to account for fixed header */
+  .app-container {
+    padding-top: 4rem;
+  }
+  
+  /* Show mobile nav on mobile */
+  .mobile-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3a4a57;
+    z-index: 1000;
+  }
+  
+  .mobile-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Mobile Home Button */
+  .mobile-nav-title {
+    font-family: 'Playfair Display', 'Crimson Text', 'Cormorant Garamond', 'Georgia', serif;
+    font-size: 1.25rem;
+    font-weight: 400; /* Regular weight for serif elegance */
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    letter-spacing: 0.05em; /* More pronounced letter spacing for classical feel */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth easing transition */
+    position: relative;
+    padding: 0.25rem 0;
+  }
+  
+  /* Elegant hover effect */
+  .mobile-nav-title:hover {
+    color: white;
+    letter-spacing: 0.08em; /* More pronounced expansion on hover */
+    transform: translateY(-1px); /* Subtle lift effect */
+  }
+  
+  /* Optional: Add a subtle underline effect */
+  .mobile-nav-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .mobile-nav-title:hover::after {
+    width: 100%;
+  }
+  
+  /* Refined typography treatment - optional alternative style */
+  .mobile-nav-title.refined {
+    font-family: 'Georgia', 'Times New Roman', serif; /* More elegant serif font */
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+  
+  .mobile-menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .mobile-menu {
+    display: none;
+    padding: 1rem;
+    background-color: #2d3a46;
+  }
+  
+  .mobile-menu.open {
+    display: block;
+  }
+  
+  .mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .mobile-nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 0.5rem 0;
+  }
+  
+  .mobile-nav-link:hover {
+    color: white;
+  }
+  
+  /* Mobile Social Links Section */
+  .mobile-social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Separator line */
+  }
+  
+  .mobile-social-link {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 0.5rem 0;
+    transition: color 0.2s ease;
+  }
+  
+  .mobile-social-link:hover {
+    color: white;
+  }
+  
+  .mobile-social-link .social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Social icons in mobile navbar */
+  .mobile-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .mobile-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.2s ease;
+  }
+  
+  .mobile-icon-link:hover {
+    color: white;
+  }
+  
+  /* Make sure the social icons don't get too large on mobile */
+  .mobile-social-icons .social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+  }
+  
+  /* Mobile responsive adjustments for reading list */
+  .book-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .book-cover-container {
+    align-self: center;
+  }
+}
