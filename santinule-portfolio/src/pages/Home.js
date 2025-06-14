@@ -31,12 +31,12 @@ function Home() {
           
           <h2 className="bio-heading">My interests:</h2>
           <ul className="bio-list">
-            <li>Science, mainly through statistical analysis</li>
-            <li>Programming: building software as well as building software through data</li>
+            <li>Science: mainly logic and statistics</li>
+            <li>Programming: building software programmatically and using data to teach machines to learn programs</li>
             <li>Art, specially in the form of fashion, styling, and architecture. Music is the queen of the arts, I enjoy listening to blues,
                jazz, house, and electronic music</li>
             <li>Meeting people with diverse frameworks of thinking</li>
-            <li>Reading, non-fiction mainly. Check out my reading list</li>
+            <li>Reading, non-fiction mainly. Check out my reading list to see my favorite books</li>
           </ul>
         </div>
       </div>

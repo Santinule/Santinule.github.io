@@ -1,0 +1,81 @@
+.
+├── .gitignore
+├── build
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── asset-manifest.json
+│   ├── favicon_io
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-16x16.png
+│   │   └── site.webmanifest
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest 2.json
+│   ├── manifest.json
+│   ├── robots 2.txt
+│   ├── robots.txt
+│   └── static
+│       ├── css
+│       │   ├── main.da4535a9.css
+│       │   └── main.da4535a9.css.map
+│       ├── js
+│       │   ├── 453.17f61830.chunk.js
+│       │   ├── 453.17f61830.chunk.js.map
+│       │   ├── main.1f6b8593.js
+│       │   ├── main.1f6b8593.js.LICENSE.txt
+│       │   └── main.1f6b8593.js.map
+│       └── media
+│           ├── home_pic.cee81f52443fb65534f0.png
+│           ├── hownottobewrong.780c6727eae7ec4752ee.jpg
+│           ├── sapiens.1dc46c3eb4028a933b55.jpg
+│           └── sssaw.d1ce0300a8c459d68d3c.jpg
+├── package-lock.json
+├── package.json
+├── public
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── favicon_io
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-16x16.png
+│   │   └── site.webmanifest
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest 2.json
+│   ├── manifest.json
+│   ├── robots 2.txt
+│   └── robots.txt
+├── README.md
+├── src
+│   ├── App.js
+│   ├── App.test.js
+│   ├── assets
+│   │   ├── books
+│   │   │   ├── hownottobewrong.jpg
+│   │   │   ├── sapiens.jpg
+│   │   │   ├── sssaw.jpg
+│   │   │   └── TSDS.jpg
+│   │   └── home_pic.png
+│   ├── components
+│   │   └── Navbar.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── pages
+│   │   ├── Home.js
+│   │   ├── ReadingList.js
+│   ├── public
+│   │   ├── assets
+│   │   │   └── home_pic.png
+│   │   └── home_pic.png
+│   ├── reportWebVitals.js
+│   ├── setupTests.js
+│   ├── styles
+│   │   ├── Main.css
+│   │   ├── Mobile.css
+│   │   └── Website.css
+│   └── tailwind.config.js
+└── structure.txt
+
+17 directories, 65 files
