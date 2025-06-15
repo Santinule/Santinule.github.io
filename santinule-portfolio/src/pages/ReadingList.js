@@ -3,6 +3,9 @@ import sapiensCover from '../assets/books/sapiens.jpg';
 import howNotToBeWrongCover from '../assets/books/hownottobewrong.jpg';
 import sssaw from '../assets/books/sssaw.jpg';
 import TSDS from '../assets/books/TSDS.jpg';
+import Random_walk from '../assets/books/Random_walk.jpg';
+import zeroToOne from '../assets/books/zero_to_one.jpg';
+
 
 function ReadingList() {
   const books = [
@@ -30,11 +33,27 @@ function ReadingList() {
     },
 
     {
+      title: "A Random Walk Down Wall street",
+      author: "Burton G. Malkiel",
+      category: "Finance",
+      description: "Unlike most investment books that I have read, this one provided positive rather than normative statements: alluding to logic or statistics for investment advice. The book covers a wide range of topics and touches up on historical events that shaped our understanding of behavioral economics and society. The best guide providing a holistic view on investing.",
+      coverImage: Random_walk
+    },
+
+    {
       title: "The Sun does Shine: How I Found Life and Freedom on Death Row",
       author: "Anthony Ray Hinton",
       category: "Memoir",
       description: "Life is simply not fair. Amid the inherent unfairness of life, it is still possible to find happiness and make a positive impact—no matter the circumstances. In this compelling memoir, Anthony Ray Hinton shares his remarkable story of how he discovered hope and joy while on death row. I have never supported the death penalty, as the false positive rate is simply too high—estimated at 10% when this book was written. I encourage everyone, whether they agree or disagree, to read this powerful story.",
       coverImage: TSDS
+    }
+    ,
+    {
+      title: "Zero to One: Notes on Startups, or How to Build the Future",
+      author: "Peter Thiel",
+      category: "Entrepreneurship",
+      description: "We should aspire to make the future better and that is only possible if we generate ideals that shape a definitive future.  Optimism needs to be the first step. Then our ideals will flourish so long as we understand the indispensable requirements that make startups thrive. Thiel argues what these requirements are and why they are important. This book serves as a guide to building a startup.",
+      coverImage: zeroToOne
     }
   ];
 

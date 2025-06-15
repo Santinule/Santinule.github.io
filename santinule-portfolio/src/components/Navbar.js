@@ -17,6 +17,7 @@ function Navbar() {
           <nav className="nav-links">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/reading-list" className="nav-link">Reading List</Link>
+            <Link to="/contact" className="nav-link">Contact</Link>
           </nav>
         </div>
         
@@ -57,6 +58,7 @@ function Navbar() {
         <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
           <nav className="mobile-nav-links">
             <Link to="/reading-list" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Reading List</Link>
+            <Link to="/contact" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Contact</Link>
           </nav>
           
           <div className="mobile-social-links">

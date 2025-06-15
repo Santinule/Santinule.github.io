@@ -3,6 +3,7 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import ReadingList from './pages/ReadingList';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/reading-list" component={ReadingList} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </div>
       </div>
