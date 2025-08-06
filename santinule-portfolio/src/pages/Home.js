@@ -26,7 +26,7 @@ function Home() {
             <li>I was born in Colombia, and spent most of my childhood there. 
               However, I have spent most of my life living on the East Coast. I have also lived in the UK and Italy</li>
             <li>I have two bachelors: Mathematics and Economics, & Data Science</li>
-            <li>My philosophical interpretation of reality centers on predicate dualism—which I see as more fundamental than but complementary to property dualism's distinction between mental and physical properties</li>
+            <li>My philosophical interpretation of reality centers on property dualism, while I additionally hold to predicate dualism that we need fundamentally different conceptual frameworks to understand these different aspects of reality</li>
           </ul>
           
           <h2 className="bio-heading">My interests:</h2>
