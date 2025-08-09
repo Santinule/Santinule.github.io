@@ -5,10 +5,18 @@ import sssaw from '../assets/books/sssaw.jpg';
 import TSDS from '../assets/books/TSDS.jpg';
 import Random_walk from '../assets/books/Random_walk.jpg';
 import zeroToOne from '../assets/books/zero_to_one.jpg';
+import thecourageToBeDisliked from '../assets/books/the_courage_to_be_disliked.jpg';
 
 
 function ReadingList() {
   const books = [
+    {
+      title: "The Courage to Be Disliked",
+      author: "Ichiro Kishimi and Fumitake Koga",
+      category: "Psychology and Philosophy",
+      description: "A dialogue between a discouraged young boy and a teaching philosopher. In it, he teaches what he understands about Adlerian psychology, using lucid and relatable analogies to illustrate the teleological framework that inspires Adlerian psychology. This one tops the list for its creativity and ease of portraying such a complex philosophy in such compelling prose.",
+      coverImage: thecourageToBeDisliked
+    },
     {
       title: "Sapiens",
       author: "Yuval Noah Harari",
@@ -71,7 +79,7 @@ function ReadingList() {
           Losing myself in a book has provided a cloudless calm in my life.
         </p>
         <p className="bio-text">
-          Below, I am sharing the stories I feel have positively influenced my life.
+          Below, I am sharing the stories that you should read, they have all positively influenced my life.
         </p>
       </div>
       
