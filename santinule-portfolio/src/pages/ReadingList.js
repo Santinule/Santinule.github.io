@@ -6,6 +6,8 @@ import TSDS from '../assets/books/TSDS.jpg';
 import Random_walk from '../assets/books/Random_walk.jpg';
 import zeroToOne from '../assets/books/zero_to_one.jpg';
 import thecourageToBeDisliked from '../assets/books/the_courage_to_be_disliked.jpg';
+import everythingIsFucked from '../assets/books/eif.jpg';
+
 
 
 function ReadingList() {
@@ -54,14 +56,22 @@ function ReadingList() {
       category: "Memoir",
       description: "Life is simply not fair. Amid the inherent unfairness of life, it is still possible to find happiness and make a positive impact—no matter the circumstances. In this compelling memoir, Anthony Ray Hinton shares his remarkable story of how he discovered hope and joy while on death row. I have never supported the death penalty, as the false positive rate is simply too high—estimated at 10% when this book was written. I encourage everyone, whether they agree or disagree, to read this powerful story.",
       coverImage: TSDS
-    }
-    ,
+    },
     {
       title: "Zero to One: Notes on Startups, or How to Build the Future",
       author: "Peter Thiel",
       category: "Entrepreneurship",
       description: "We should aspire to make the future better and that is only possible if we generate ideals that shape a definitive future.  Optimism needs to be the first step. Then our ideals will flourish so long as we understand the indispensable requirements that make startups thrive. Thiel argues what these requirements are and why they are important. This book serves as a guide to building a startup.",
       coverImage: zeroToOne
+    },
+    {
+      title: "Everything Is F*cked: A Book About Hope",
+      author: "Mark Manson",
+      category:"Self-Help",
+      description: "I found this book particularly relevant to the struggles our society faces in the 21st century. Manson poses the problem of ‘lost hope’ by extrapolating from Nietzsche’s arguments on cultural evolution. He then turns to Kant’s ideas on rational moral frameworks as a possible guide to restoring hope. Finally, he posits a bridge between Kant’s ideals and modern psychology. Manson’s writing astonishes me as he makes rational arguments for modern problems, weaving in history and philosophy while balancing a contemporary and philosophical writing style. I would also recommend his blog.",
+      coverImage: everythingIsFucked
+
+
     }
   ];
 
