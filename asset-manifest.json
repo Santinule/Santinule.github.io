@@ -1,33 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.5cb41cfd.chunk.css",
-    "main.js": "/static/js/main.8154b816.chunk.js",
-    "main.js.map": "/static/js/main.8154b816.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bc8dbc84.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bc8dbc84.js.map",
-    "static/js/2.a2bb7098.chunk.js": "/static/js/2.a2bb7098.chunk.js",
-    "static/js/2.a2bb7098.chunk.js.map": "/static/js/2.a2bb7098.chunk.js.map",
-    "static/js/3.b9e2e776.chunk.js": "/static/js/3.b9e2e776.chunk.js",
-    "static/js/3.b9e2e776.chunk.js.map": "/static/js/3.b9e2e776.chunk.js.map",
+    "main.js": "/static/js/main.30f828e1.chunk.js",
+    "main.js.map": "/static/js/main.30f828e1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2d466c18.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2d466c18.js.map",
+    "static/js/2.0b7e8848.chunk.js": "/static/js/2.0b7e8848.chunk.js",
+    "static/js/2.0b7e8848.chunk.js.map": "/static/js/2.0b7e8848.chunk.js.map",
+    "static/js/3.8f70a0b7.chunk.js": "/static/js/3.8f70a0b7.chunk.js",
+    "static/js/3.8f70a0b7.chunk.js.map": "/static/js/3.8f70a0b7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aa2d8c4a98b86987dcc2115664fd90ab.js": "/precache-manifest.aa2d8c4a98b86987dcc2115664fd90ab.js",
+    "precache-manifest.13861a9ab0e01efc37a43bdddf98a5f5.js": "/precache-manifest.13861a9ab0e01efc37a43bdddf98a5f5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5cb41cfd.chunk.css.map": "/static/css/main.5cb41cfd.chunk.css.map",
-    "static/js/2.a2bb7098.chunk.js.LICENSE.txt": "/static/js/2.a2bb7098.chunk.js.LICENSE.txt",
+    "static/js/2.0b7e8848.chunk.js.LICENSE.txt": "/static/js/2.0b7e8848.chunk.js.LICENSE.txt",
     "static/media/Random_walk.jpg": "/static/media/Random_walk.5f50e098.jpg",
     "static/media/TSDS.jpg": "/static/media/TSDS.015dffb7.jpg",
+    "static/media/doc2table_Logo.png": "/static/media/doc2table_Logo.8e9b911c.png",
     "static/media/eif.jpg": "/static/media/eif.fc257347.jpg",
     "static/media/home_pic.png": "/static/media/home_pic.920daff9.png",
     "static/media/hownottobewrong.jpg": "/static/media/hownottobewrong.8ae5f0d6.jpg",
     "static/media/sapiens.jpg": "/static/media/sapiens.f8ef8858.jpg",
     "static/media/sssaw.jpg": "/static/media/sssaw.f9bb7087.jpg",
     "static/media/the_courage_to_be_disliked.jpg": "/static/media/the_courage_to_be_disliked.4ab55639.jpg",
+    "static/media/vgg16.png": "/static/media/vgg16.62422dd9.png",
     "static/media/zero_to_one.jpg": "/static/media/zero_to_one.0ba29c44.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc8dbc84.js",
-    "static/js/2.a2bb7098.chunk.js",
+    "static/js/runtime-main.2d466c18.js",
+    "static/js/2.0b7e8848.chunk.js",
     "static/css/main.5cb41cfd.chunk.css",
-    "static/js/main.8154b816.chunk.js"
+    "static/js/main.30f828e1.chunk.js"
   ]
 }
