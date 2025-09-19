@@ -16,6 +16,7 @@ function Navbar() {
           <p className="nav-heading">NAVIGATION</p>
           <nav className="nav-links">
             <Link to="/" className="nav-link">Home</Link>
+            <Link to="/projects" className="nav-link">Projects</Link>
             <Link to="/reading-list" className="nav-link">Reading List</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
           </nav>
@@ -58,6 +59,7 @@ function Navbar() {
         <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
           <nav className="mobile-nav-links">
             <Link to="/reading-list" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Reading List</Link>
+            <Link to="/projects" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Projects</Link>
             <Link to="/contact" className="mobile-nav-link" onClick={() => setIsOpen(false)}>Contact</Link>
           </nav>
           
