@@ -100,7 +100,7 @@ function Projects() {
               }}
             >
               {/* Title and Link Row */}
-              <div style={{
+              <div className="project-header" style={{
                 display: "flex",
                 justifyContent: "space-between",
                 alignItems: "center",

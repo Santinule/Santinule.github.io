@@ -24,10 +24,10 @@ function Home() {
           <ul className="bio-list">
             <li>I am a CS masters student at Johns Hopkins currently living in Baltimore, MD</li>
             <li>I was born in Colombia, and spent most of my childhood there 
-              However, I have spent most of my life living on the East Coast. I have also lived in the UK and Italy.</li>
-            <li>I have two bachelors: Mathematics and Economics, & Data Science.</li>
-            <li>I do AI engineering, integrating AI into software; ML engineering, programs that learn rules through data; software engineering, backend and frontend; software system design; and database modeling.</li>
-            <li>My philosophical interpretation centers on property dualism, while I additionally hold to predicate dualism’s insight that we need fundamentally different conceptual frameworks to understand these different aspects of reality.</li>
+              However, I have spent most of my life living on the East Coast. I have also lived in the UK and Italy</li>
+            <li>I have two bachelors: Mathematics and Economics, & Data Science</li>
+            <li>I do AI engineering, integrating AI into software; ML engineering, programs that learn rules through data; software engineering, backend and frontend; software system design; and database modeling</li>
+            <li>My philosophical interpretation centers on property dualism, while I additionally hold to predicate dualism’s insight that we need fundamentally different conceptual frameworks to understand these different aspects of reality</li>
           </ul>
           
           <h2 className="bio-heading">My interests:</h2>

@@ -188,4 +188,20 @@
     padding: 0.75rem 2rem;
     font-size: 0.9rem;
   }
+
+  /* Mobile responsive project cards */
+  .project-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px;
+  }
+
+  .project-title {
+    margin-bottom: 8px !important;
+  }
+
+  .project-link {
+    word-break: break-all !important;
+    font-size: 0.9rem !important;
+  }
 }
