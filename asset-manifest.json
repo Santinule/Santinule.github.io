@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.27b3c4fd.chunk.css",
-    "main.js": "/static/js/main.59e679d6.chunk.js",
-    "main.js.map": "/static/js/main.59e679d6.chunk.js.map",
+    "main.js": "/static/js/main.8f10fc53.chunk.js",
+    "main.js.map": "/static/js/main.8f10fc53.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2d466c18.js",
     "runtime-main.js.map": "/static/js/runtime-main.2d466c18.js.map",
     "static/js/2.0b7e8848.chunk.js": "/static/js/2.0b7e8848.chunk.js",
@@ -10,26 +10,26 @@
     "static/js/3.8f70a0b7.chunk.js": "/static/js/3.8f70a0b7.chunk.js",
     "static/js/3.8f70a0b7.chunk.js.map": "/static/js/3.8f70a0b7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.11b68456a2de5b67a7985e378e541299.js": "/precache-manifest.11b68456a2de5b67a7985e378e541299.js",
+    "precache-manifest.ae90bb8ef21a0bfe2a759bbc980026c4.js": "/precache-manifest.ae90bb8ef21a0bfe2a759bbc980026c4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.27b3c4fd.chunk.css.map": "/static/css/main.27b3c4fd.chunk.css.map",
     "static/js/2.0b7e8848.chunk.js.LICENSE.txt": "/static/js/2.0b7e8848.chunk.js.LICENSE.txt",
-    "static/media/Random_walk.jpg": "/static/media/Random_walk.5f50e098.jpg",
-    "static/media/TSDS.jpg": "/static/media/TSDS.015dffb7.jpg",
-    "static/media/doc2table_Logo.png": "/static/media/doc2table_Logo.8e9b911c.png",
-    "static/media/eif.jpg": "/static/media/eif.fc257347.jpg",
-    "static/media/home_pic.png": "/static/media/home_pic.920daff9.png",
-    "static/media/hownottobewrong.jpg": "/static/media/hownottobewrong.8ae5f0d6.jpg",
-    "static/media/sapiens.jpg": "/static/media/sapiens.f8ef8858.jpg",
-    "static/media/sssaw.jpg": "/static/media/sssaw.f9bb7087.jpg",
-    "static/media/the_courage_to_be_disliked.jpg": "/static/media/the_courage_to_be_disliked.4ab55639.jpg",
-    "static/media/vgg16.png": "/static/media/vgg16.62422dd9.png",
-    "static/media/zero_to_one.jpg": "/static/media/zero_to_one.0ba29c44.jpg"
+    "static/media/Random_walk.avif": "/static/media/Random_walk.28b18f06.avif",
+    "static/media/TSDS.avif": "/static/media/TSDS.f5df91b1.avif",
+    "static/media/doc2table_Logo.avif": "/static/media/doc2table_Logo.44332ee0.avif",
+    "static/media/eif.avif": "/static/media/eif.f8c30ade.avif",
+    "static/media/home_pic.avif": "/static/media/home_pic.9f0bbb40.avif",
+    "static/media/hownottobewrong.avif": "/static/media/hownottobewrong.e47be17b.avif",
+    "static/media/sapiens.avif": "/static/media/sapiens.6aa0fb6c.avif",
+    "static/media/sssaw.avif": "/static/media/sssaw.aa19c6e3.avif",
+    "static/media/the_courage_to_be_disliked.avif": "/static/media/the_courage_to_be_disliked.0f2019cf.avif",
+    "static/media/vgg16.avif": "/static/media/vgg16.9e80a21e.avif",
+    "static/media/zero_to_one.avif": "/static/media/zero_to_one.a26a80e4.avif"
   },
   "entrypoints": [
     "static/js/runtime-main.2d466c18.js",
     "static/js/2.0b7e8848.chunk.js",
     "static/css/main.27b3c4fd.chunk.css",
-    "static/js/main.59e679d6.chunk.js"
+    "static/js/main.8f10fc53.chunk.js"
   ]
 }
