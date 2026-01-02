@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import homeImage from '../assets/home_pic.avif';
 
 function Home() {
@@ -32,14 +33,14 @@ function Home() {
           
           <h2 className="bio-heading">My interests:</h2>
           <ul className="bio-list">
-            <li>Science: logic and statistics. Statistics extend logic, allowing us to maneuver the chaos permeating nature</li>
+            <li>Science: logic and statistics. Statistics extends logic, allowing us to navigate the chaos permeating nature</li>
             <li>Programming: building software declaratively, and using data to teach machines to learn programs</li>
-            <li>Art, specially in the form of fashion, styling, and architecture. Music is the queen of the arts, I enjoy listening to blues,
+            <li>Art, especially in the form of fashion, styling, and architecture. Music is the queen of the arts, I enjoy listening to blues,
                jazz, house, and electronic music</li>
             <li>Meeting people with diverse frameworks of thinking</li>
-            <li>Reading, non-fiction mainly. Check out my reading list</li>
-            <li>Writing, I have recently started writing on Medium</li>
-            <li>I enjoy sports, mainly futbol, skateboarding and basketball. Futbol is beautiful since it expresses culture, discipline, and strategy— synergized in an unparalleled way</li>
+            <li>Reading, non-fiction mainly. Check out my <Link to="/reading-list" className="inline-link" onClick={() => window.scrollTo(0, 0)}>reading list</Link></li>
+            <li>Writing — I recently started publishing on Medium</li>
+            <li>Sports, mainly fútbol, skateboarding, and basketball. Fútbol is beautiful since it expresses culture, discipline, and strategy — synergized in an unparalleled way</li>
           </ul>
         </div>
       </div>

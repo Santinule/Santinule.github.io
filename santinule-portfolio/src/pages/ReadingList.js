@@ -54,7 +54,7 @@ function ReadingList() {
       title: "The Sun does Shine: How I Found Life and Freedom on Death Row",
       author: "Anthony Ray Hinton",
       category: "Memoir",
-      description: "Life is simply not fair. Amid the inherent unfairness of life, it is still possible to find happiness and make a positive impact—no matter the circumstances. In this compelling memoir, Anthony Ray Hinton shares his remarkable story of how he discovered hope and joy while on death row. I have never supported the death penalty, as the false positive rate is simply too high—estimated at 10% when this book was written. I encourage everyone, whether they agree or disagree, to read this powerful story.",
+      description: "Life is simply not fair. Amid the inherent unfairness of life, it is still possible to find happiness and make a positive impact—no matter the circumstances. In this compelling memoir, Anthony Ray Hinton shares his remarkable story of how he discovered hope and joy while on death row. I encourage everyone, whether they agree or disagree on the death penalty, to read this powerful story.",
       coverImage: TSDS
     },
     {
