@@ -25,23 +25,32 @@ function Navbar() {
         <div className="nav-section">
           <p className="nav-heading">FIND ME ON</p>
           <div className="social-links">
-            <a 
-              href="https://github.com/Santinule" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://github.com/Santinule"
+              target="_blank"
+              rel="noopener noreferrer"
               className="social-link"
             >
               <div className="social-icon github-icon"></div>
               <span>GitHub</span>
             </a>
-            <a 
-              href="https://www.linkedin.com/in/Santiagonule" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://www.linkedin.com/in/Santiagonule"
+              target="_blank"
+              rel="noopener noreferrer"
               className="social-link"
             >
               <div className="social-icon linkedin-icon"></div>
               <span>LinkedIn</span>
+            </a>
+            <a
+              href="https://medium.com/@sj.nule"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <div className="social-icon medium-icon"></div>
+              <span>Medium</span>
             </a>
           </div>
         </div>
@@ -64,23 +73,32 @@ function Navbar() {
           </nav>
           
           <div className="mobile-social-links">
-            <a 
-              href="https://github.com/Santinule" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://github.com/Santinule"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mobile-social-link"
             >
               <div className="social-icon github-icon"></div>
               <span>GitHub</span>
             </a>
-            <a 
-              href="https://www.linkedin.com/in/Santiagonule" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://www.linkedin.com/in/Santiagonule"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mobile-social-link"
             >
               <div className="social-icon linkedin-icon"></div>
               <span>LinkedIn</span>
+            </a>
+            <a
+              href="https://medium.com/@sj.nule"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mobile-social-link"
+            >
+              <div className="social-icon medium-icon"></div>
+              <span>Medium</span>
             </a>
           </div>
         </div>

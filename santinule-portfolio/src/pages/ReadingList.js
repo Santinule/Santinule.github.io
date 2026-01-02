@@ -1,12 +1,12 @@
 import React from 'react';
-import sapiensCover from '../assets/books/sapiens.jpg';
-import howNotToBeWrongCover from '../assets/books/hownottobewrong.jpg';
-import sssaw from '../assets/books/sssaw.jpg';
-import TSDS from '../assets/books/TSDS.jpg';
-import Random_walk from '../assets/books/Random_walk.jpg';
-import zeroToOne from '../assets/books/zero_to_one.jpg';
-import thecourageToBeDisliked from '../assets/books/the_courage_to_be_disliked.jpg';
-import everythingIsFucked from '../assets/books/eif.jpg';
+import sapiensCover from '../assets/books/sapiens.avif';
+import howNotToBeWrongCover from '../assets/books/hownottobewrong.avif';
+import sssaw from '../assets/books/sssaw.avif';
+import TSDS from '../assets/books/TSDS.avif';
+import Random_walk from '../assets/books/Random_walk.avif';
+import zeroToOne from '../assets/books/zero_to_one.avif';
+import thecourageToBeDisliked from '../assets/books/the_courage_to_be_disliked.avif';
+import everythingIsFucked from '../assets/books/eif.avif';
 
 
 

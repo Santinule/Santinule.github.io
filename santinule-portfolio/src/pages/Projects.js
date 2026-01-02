@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import doc2tableLogo from '../assets/proj_images/doc2table_Logo.png';
-import vgg16 from '../assets/proj_images/vgg16.png';
+import doc2tableLogo from '../assets/proj_images/doc2table_Logo.avif';
+import vgg16 from '../assets/proj_images/vgg16.avif';
 
 
 function Projects() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import homeImage from '../assets/home_pic.png';
+import homeImage from '../assets/home_pic.avif';
 
 function Home() {
   return (
@@ -23,11 +23,11 @@ function Home() {
           <h2 className="bio-heading">About me:</h2>
           <ul className="bio-list">
             <li>I am a CS masters student at Johns Hopkins currently living in Baltimore, MD</li>
-            <li>I was born in Colombia, and spent most of my childhood there 
+            <li>I was born in Colombia, and spent most of my childhood there. 
               However, I have spent most of my life living on the East Coast. I have also lived in the UK and Italy</li>
             <li>I have two bachelors: Mathematics and Economics, & Data Science</li>
             <li>I do AI engineering, integrating AI into software; ML engineering, programs that learn rules through data; software engineering, backend and frontend; software system design; and database modeling</li>
-            <li>My philosophical interpretation centers on property dualism, while I additionally hold to predicate dualism’s insight that we need fundamentally different conceptual frameworks to understand these different aspects of reality</li>
+            <li>Philosophically, my interpretation centers on property dualism, informed by predicate dualism’s insight that we need fundamentally different conceptual frameworks to understand different aspects of reality.</li>
           </ul>
           
           <h2 className="bio-heading">My interests:</h2>
@@ -38,6 +38,7 @@ function Home() {
                jazz, house, and electronic music</li>
             <li>Meeting people with diverse frameworks of thinking</li>
             <li>Reading, non-fiction mainly. Check out my reading list</li>
+            <li>Writing, I have recently started writing on Medium</li>
             <li>I enjoy sports, mainly futbol, skateboarding and basketball. Futbol is beautiful since it expresses culture, discipline, and strategy— synergized in an unparalleled way</li>
           </ul>
         </div>
