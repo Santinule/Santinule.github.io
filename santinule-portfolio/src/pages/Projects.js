@@ -23,7 +23,10 @@ function Projects() {
     },
     {
       title: "Meshaa",
-      link: "https://meshaa.xyz/",
+      links: [
+        { url: "https://meshaa.io", label: "Commercial" },
+        { url: "https://meshaa.xyz/", label: "Research" }
+      ],
       images: [],
       description: "Meshaa is a startup at the intersection of computer graphics and machine learning. We have built a prototype app that digitizes real-world assets into 3D objects, enabling users to share clothing and other collectibles. Using AI-based photogrammetry, we process video sequences and train volumetric representation of gaussians at every point in the scene to capture accurate 3D shapes. The app, developed in Swift with RealityKit for future Vision Pro scaling, is currently being optimized for performance and user experience. A 3D representation of real-world objects enhances AR/VR interactions and supports more perceptive AI models. If you would like to check out the demo, feel free to contact me.",
       whatIDid: "Led the research and methodology, designed the software system and database architecture, implemented backend code for data storage and 3D data transfer endpoints, performed frontend code reviews, and developed the Next.js website."
@@ -113,7 +116,26 @@ function Projects() {
                 }}>
                   {project.title}
                 </h3>
-                {project.link && (
+                {project.links ? (
+                  <div style={{ display: "flex", gap: "1.5rem" }}>
+                    {project.links.map((linkItem, i) => (
+                      <a
+                        key={i}
+                        href={linkItem.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link"
+                        style={{
+                          color: "inherit",
+                          textDecoration: "underline",
+                          fontSize: "1rem"
+                        }}
+                      >
+                        {linkItem.label}
+                      </a>
+                    ))}
+                  </div>
+                ) : project.link && (
                   <a
                     href={project.link}
                     target="_blank"
