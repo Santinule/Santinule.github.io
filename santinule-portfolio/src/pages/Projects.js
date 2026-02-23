@@ -24,7 +24,7 @@ function Projects() {
     {
       title: "Meshaa",
       links: [
-        { url: "https://meshaa.io", label: "Commercial" },
+        { url: "https://www.meshaa.io", label: "Commercial" },
         { url: "https://meshaa.xyz/", label: "Research" }
       ],
       images: [],
