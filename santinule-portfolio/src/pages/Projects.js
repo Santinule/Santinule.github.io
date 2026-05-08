@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
 import doc2tableLogo from '../assets/proj_images/doc2table_Logo.avif';
 import vgg16 from '../assets/proj_images/vgg16.avif';
+import rayTracing from '../assets/proj_images/ray-tracing-image-1.jpg';
 
 
 function Projects() {
   const [currentImageIndex, setCurrentImageIndex] = useState({});
 
   const projects = [
+    {
+      title: "Ray Tracing Engine",
+      link: "",
+      images: [rayTracing],
+      description: "A C++ renderer that computes photorealistic images by simulating light transport — tracing rays per pixel from the camera into a scene, computing color from how light interacts with each surface.",
+      whatIDid: "Implemented ray-geometry intersection for spheres and triangles. Built a Phong shading model (ambient, diffuse, specular) across point, spot, and directional lights. Added recursive reflections and refractions via Snell's law with total internal reflection. Implemented soft shadows via Monte Carlo sampling over spherical light sources. Added triangle texture mapping with bilinear interpolation."
+    },
     {
       title: "Doc2Table",
       link: "https://www.doc2table.com/",
