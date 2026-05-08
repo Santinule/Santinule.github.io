@@ -23,7 +23,7 @@ function Home() {
         <div className="profile-bio">
           <h2 className="bio-heading">About me:</h2>
           <ul className="bio-list">
-            <li>I am currently living in San Francisco where I've had the pleasure of meeting people working on innovative and cool things</li>
+            <li>I am currently living in San Francisco, where I've had the pleasure of meeting people working on innovative and cool things</li>
             <li>I recently graduated from my Master's in Computer Science at Johns Hopkins University</li>
             <li>I was born in Colombia, and spent most of my childhood there. 
               However, I have spent most of my life living on the East Coast. I have also lived in the UK and Italy</li>
