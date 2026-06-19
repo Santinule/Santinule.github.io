@@ -12,7 +12,7 @@ function Projects() {
       title: "Ray Tracing Engine",
       link: "",
       images: [rayTracing],
-      description: "A C++ renderer that computes photorealistic images by simulating light transport — tracing rays per pixel from the camera into a scene, computing color from how light interacts with each surface.",
+      description: "Have you ever wondered how a 3D world goes from a computer's memory to your screen? Ray tracing answers that by simulating how light travels through a scene — casting a ray for each pixel on screen, bouncing it off surfaces, and computing the color you'd actually see. The result is photorealistic images that capture shadows, reflections, and lighting as they behave in the real world.",
       whatIDid: "Implemented ray-geometry intersection for spheres and triangles. Built a Phong shading model (ambient, diffuse, specular) across point, spot, and directional lights. Added recursive reflections and refractions via Snell's law with total internal reflection. Implemented soft shadows via Monte Carlo sampling over spherical light sources. Added triangle texture mapping with bilinear interpolation."
     },
     {
