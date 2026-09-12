@@ -83,18 +83,19 @@ function ReadingList() {
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(-1);
-  const detailRefs = useRef([]);
+  const panelRef = useRef(null);
+  const selectedBook = selectedIndex !== -1 ? books[selectedIndex] : null;
 
   const handleSelect = (index) => {
     setSelectedIndex((prev) => {
       const next = prev === index ? -1 : index;
       if (next !== -1) {
         requestAnimationFrame(() => {
-          const el = detailRefs.current[next];
+          const el = panelRef.current;
           if (el) {
             el.scrollIntoView({
               behavior: 'smooth',
-              block: 'center',
+              block: 'nearest',
             });
           }
         });
@@ -117,7 +118,7 @@ function ReadingList() {
           Losing myself in a book has provided a cloudless calm in my life.
         </p>
         <p className="bio-text">
-          Below is my shelf—click a book to open it and jump to what I thought of it.
+          Below is my shelf—click a book to see what I thought of it.
         </p>
       </div>
 
@@ -127,22 +128,28 @@ function ReadingList() {
         onSelect={handleSelect}
       />
 
-      <div className="reading-list">
-        {books.map((book, index) => (
-          <div
-            key={index}
-            ref={(el) => (detailRefs.current[index] = el)}
-            className={`project-item${selectedIndex === index ? ' is-selected' : ''}`}
-          >
-            <h3 className="project-title">{book.title}</h3>
-            <p className="book-author">by {book.author}</p>
-            {book.category && (
-              <span className="book-category">{book.category}</span>
-            )}
-            <p className="project-description">{book.description}</p>
+      {selectedBook && (
+        <div className="book-info-panel" ref={panelRef}>
+          <div className="book-info-header">
+            <div>
+              <h3 className="project-title">{selectedBook.title}</h3>
+              <p className="book-author">by {selectedBook.author}</p>
+            </div>
+            <button
+              type="button"
+              className="book-info-close"
+              aria-label="Close"
+              onClick={() => setSelectedIndex(-1)}
+            >
+              &#10005;
+            </button>
           </div>
-        ))}
-      </div>
+          {selectedBook.category && (
+            <span className="book-category">{selectedBook.category}</span>
+          )}
+          <p className="project-description">{selectedBook.description}</p>
+        </div>
+      )}
     </div>
   );
 }
