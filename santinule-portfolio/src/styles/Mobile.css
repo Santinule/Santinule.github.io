@@ -150,9 +150,18 @@
     flex-direction: column;
     gap: 1rem;
   }
-  
+
   .book-cover-container {
     align-self: center;
+  }
+
+  /* Bookshelf: rely on touch-scroll, hide the arrow buttons */
+  .shelf-scroll-btn {
+    display: none;
+  }
+
+  .bookshelf-viewport {
+    padding: 20px 8px 26px;
   }
 }
 
