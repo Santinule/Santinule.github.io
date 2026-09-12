@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 
-const SPINE_WIDTH = 42;
-const SHELF_HEIGHT = 210;
+const SPINE_WIDTH = 52;
+const SHELF_HEIGHT = 276;
 const COVER_WIDTH = SPINE_WIDTH * 4;
 
 function Bookshelf({ books, selectedIndex, onSelect }) {

@@ -411,12 +411,14 @@ body {
 .bookshelf-viewport {
   display: flex;
   align-items: center;
-  gap: 3px;
+  justify-content: center;
+  justify-content: safe center;
+  gap: 4px;
   overflow-x: auto;
   overflow-y: hidden;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  padding: 28px 10px 34px;
+  padding: 36px 10px 42px;
   background: linear-gradient(
     to bottom,
     transparent 0%,

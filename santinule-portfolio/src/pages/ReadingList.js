@@ -19,7 +19,8 @@ function ReadingList() {
       category: "Psychology and Philosophy",
       description: "A dialogue between a discouraged young boy and a teaching philosopher. In it, he teaches what he understands about Adlerian psychology, using lucid and relatable analogies to illustrate the teleological framework that inspires Adlerian psychology. This one tops the list for its creativity and ease of portraying such a complex philosophy in such compelling prose.",
       coverImage: thecourageToBeDisliked,
-      spineColor: "#234e52"
+      spineColor: "#d9503c",
+      textColor: "#1a1a1a"
     },
     {
       title: "Sapiens",
@@ -27,7 +28,8 @@ function ReadingList() {
       category: "History",
       description: "This book is much more than a brief history of humankind. Harari does an excellent job extrapolating from physical evolution and natural selection into the metaphysical idea of story-guided evolution. It enlightens us with the ideal that culture, religion, and nations are superseded by powerful stories.",
       coverImage: sapiensCover,
-      spineColor: "#742a2a"
+      spineColor: "#f2ece0",
+      textColor: "#1a1a1a"
     },
     {
       title: "Several Short Sentences About Writing",
@@ -35,7 +37,8 @@ function ReadingList() {
       category: "Writing",
       description: "Writing is probably one of the most important skills one can have. The misconception that as a writer you are constrained by syntax and grammar needs to be eradicated. Writing is simply a physical manifestation of an idea—you have them all the time—it may be elaborated and pruned later, or perhaps never: that is in your power. Read this right now, and then read it again.",
       coverImage: sssaw,
-      spineColor: "#1a365d"
+      spineColor: "#e6e6e4",
+      textColor: "#1a1a1a"
     },
 
     {
@@ -44,7 +47,8 @@ function ReadingList() {
       category: "Mathematics",
       description: "Why thinking in a mathematical way is imperative for interpreting a seemingly uncomplex world.",
       coverImage: howNotToBeWrongCover,
-      spineColor: "#22543d"
+      spineColor: "#9cc9c8",
+      textColor: "#ffffff"
     },
 
     {
@@ -53,7 +57,8 @@ function ReadingList() {
       category: "Finance",
       description: "Unlike most investment books that I have read, this one provided positive rather than normative statements: alluding to logic or statistics for investment advice. The book covers a wide range of topics and touches up on historical events that shaped our understanding of behavioral economics and society. The best guide providing a holistic view on investing.",
       coverImage: Random_walk,
-      spineColor: "#744210"
+      spineColor: "#fafaf8",
+      textColor: "#1b5e3f"
     },
 
     {
@@ -62,7 +67,8 @@ function ReadingList() {
       category: "Memoir",
       description: "Life is simply not fair. Amid the inherent unfairness of life, it is still possible to find happiness and make a positive impact—no matter the circumstances. In this compelling memoir, Anthony Ray Hinton shares his remarkable story of how he discovered hope and joy while on death row. I encourage everyone, whether they agree or disagree on the death penalty, to read this powerful story.",
       coverImage: TSDS,
-      spineColor: "#44337a"
+      spineColor: "#c2401f",
+      textColor: "#f7e7b4"
     },
     {
       title: "Zero to One: Notes on Startups, or How to Build the Future",
@@ -70,7 +76,8 @@ function ReadingList() {
       category: "Entrepreneurship",
       description: "We should aspire to make the future better and that is only possible if we generate ideals that shape a definitive future.  Optimism needs to be the first step. Then our ideals will flourish so long as we understand the indispensable requirements that make startups thrive. Thiel argues what these requirements are and why they are important. This book serves as a guide to building a startup.",
       coverImage: zeroToOne,
-      spineColor: "#2d3748"
+      spineColor: "#5c84ac",
+      textColor: "#1a1a1a"
     },
     {
       title: "Everything Is F*cked: A Book About Hope",
@@ -78,7 +85,8 @@ function ReadingList() {
       category: "Self-Help",
       description: "I found this book particularly relevant to the struggles our society faces in the 21st century. Manson poses the problem of ‘lost hope’ by extrapolating from Nietzsche’s arguments on cultural evolution. He then turns to Kant’s ideas on rational moral frameworks as a possible guide to restoring hope. Finally, he posits a bridge between Kant’s ideals and modern psychology. Manson’s writing astonishes me as he makes rational arguments for modern problems, weaving in history and philosophy while balancing a contemporary and philosophical writing style. I would also recommend his blog.",
       coverImage: everythingIsFucked,
-      spineColor: "#822727"
+      spineColor: "#3aa9a4",
+      textColor: "#1a1a1a"
     }
   ];
 
