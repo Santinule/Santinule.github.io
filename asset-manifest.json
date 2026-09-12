@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.7030724d.chunk.css",
-    "main.js": "/static/js/main.a8f667ed.chunk.js",
-    "main.js.map": "/static/js/main.a8f667ed.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5b5d81b8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5b5d81b8.js.map",
-    "static/js/2.54ec4c9f.chunk.js": "/static/js/2.54ec4c9f.chunk.js",
-    "static/js/2.54ec4c9f.chunk.js.map": "/static/js/2.54ec4c9f.chunk.js.map",
-    "static/js/3.60811bae.chunk.js": "/static/js/3.60811bae.chunk.js",
-    "static/js/3.60811bae.chunk.js.map": "/static/js/3.60811bae.chunk.js.map",
+    "main.css": "/static/css/main.0d7ccbfe.chunk.css",
+    "main.js": "/static/js/main.932c8a6e.chunk.js",
+    "main.js.map": "/static/js/main.932c8a6e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.54b5635e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.54b5635e.js.map",
+    "static/js/2.08c63570.chunk.js": "/static/js/2.08c63570.chunk.js",
+    "static/js/2.08c63570.chunk.js.map": "/static/js/2.08c63570.chunk.js.map",
+    "static/js/3.4985fba8.chunk.js": "/static/js/3.4985fba8.chunk.js",
+    "static/js/3.4985fba8.chunk.js.map": "/static/js/3.4985fba8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.149ba71f45e3e43ad3abcf48fcc3cbe2.js": "/precache-manifest.149ba71f45e3e43ad3abcf48fcc3cbe2.js",
+    "precache-manifest.ef6908f101ded0978bde3ba51f24dfe7.js": "/precache-manifest.ef6908f101ded0978bde3ba51f24dfe7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7030724d.chunk.css.map": "/static/css/main.7030724d.chunk.css.map",
-    "static/js/2.54ec4c9f.chunk.js.LICENSE.txt": "/static/js/2.54ec4c9f.chunk.js.LICENSE.txt",
+    "static/css/main.0d7ccbfe.chunk.css.map": "/static/css/main.0d7ccbfe.chunk.css.map",
+    "static/js/2.08c63570.chunk.js.LICENSE.txt": "/static/js/2.08c63570.chunk.js.LICENSE.txt",
     "static/media/Random_walk.avif": "/static/media/Random_walk.28b18f06.avif",
     "static/media/TSDS.avif": "/static/media/TSDS.f5df91b1.avif",
+    "static/media/articulate-logo.avif": "/static/media/articulate-logo.b9022e61.avif",
     "static/media/doc2table_Logo.avif": "/static/media/doc2table_Logo.44332ee0.avif",
     "static/media/eif.avif": "/static/media/eif.f8c30ade.avif",
     "static/media/home_pic.avif": "/static/media/home_pic.9f0bbb40.avif",
@@ -28,9 +29,9 @@
     "static/media/zero_to_one.avif": "/static/media/zero_to_one.a26a80e4.avif"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b5d81b8.js",
-    "static/js/2.54ec4c9f.chunk.js",
-    "static/css/main.7030724d.chunk.css",
-    "static/js/main.a8f667ed.chunk.js"
+    "static/js/runtime-main.54b5635e.js",
+    "static/js/2.08c63570.chunk.js",
+    "static/css/main.0d7ccbfe.chunk.css",
+    "static/js/main.932c8a6e.chunk.js"
   ]
 }
