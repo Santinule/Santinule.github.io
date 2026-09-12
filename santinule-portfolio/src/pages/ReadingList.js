@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import sapiensCover from '../assets/books/sapiens.avif';
 import howNotToBeWrongCover from '../assets/books/hownottobewrong.avif';
 import sssaw from '../assets/books/sssaw.avif';
@@ -93,7 +93,7 @@ function ReadingList() {
       title: "The Ecology of Commerce: A Declaration of Sustainability",
       author: "Paul Hawken",
       category: "Sustainability",
-      description: "This book shifted my perspective to see sustainability as a design problem, providing hope for how we will deal with the climate crisis. It makes the point that those who restore, rather than deplete, will end up with the economic advantage.",
+      description: "This book shifted my perspective to see sustainability as a design problem, providing hope for how we will deal with the climate crisis. It makes the point that those who restore, rather than deplete, end up with the economic advantage.",
       coverImage: TEOC,
       spineColor: "#f4f7ee",
       textColor: "#1a1a1a"
@@ -101,23 +101,11 @@ function ReadingList() {
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(-1);
-  const panelRef = useRef(null);
   const selectedBook = selectedIndex !== -1 ? books[selectedIndex] : null;
 
   const handleSelect = (index) => {
     setSelectedIndex((prev) => {
       const next = prev === index ? -1 : index;
-      if (next !== -1) {
-        requestAnimationFrame(() => {
-          const el = panelRef.current;
-          if (el) {
-            el.scrollIntoView({
-              behavior: 'smooth',
-              block: 'nearest',
-            });
-          }
-        });
-      }
       return next;
     });
   };
@@ -148,7 +136,7 @@ function ReadingList() {
       <p className="shelf-hint">Tap a book to see more about it.</p>
 
       {selectedBook && (
-        <div className="book-info-panel" ref={panelRef}>
+        <div className="book-info-panel">
           <div className="book-info-header">
             <div>
               <h3 className="project-title">{selectedBook.title}</h3>

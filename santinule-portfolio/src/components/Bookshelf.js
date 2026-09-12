@@ -11,12 +11,13 @@ function Bookshelf({ books, selectedIndex, onSelect }) {
   useEffect(() => {
     if (selectedIndex === -1) return;
     const el = bookRefs.current[selectedIndex];
-    if (el) {
-      el.scrollIntoView({
-        behavior: 'smooth',
-        inline: 'center',
-        block: 'nearest',
-      });
+    const viewport = viewportRef.current;
+    if (el && viewport) {
+      // Scroll only the shelf's own horizontal viewport (never the page)
+      // so opening a book can't move vertical scroll position.
+      const target =
+        el.offsetLeft - (viewport.clientWidth - el.offsetWidth) / 2;
+      viewport.scrollTo({ left: target, behavior: 'smooth' });
     }
   }, [selectedIndex]);
 
