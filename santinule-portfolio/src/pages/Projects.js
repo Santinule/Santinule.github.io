@@ -134,7 +134,6 @@ function Projects() {
                         rel="noopener noreferrer"
                         className="project-link"
                         style={{
-                          color: "inherit",
                           textDecoration: "underline",
                           fontSize: "1rem"
                         }}
@@ -150,7 +149,6 @@ function Projects() {
                     rel="noopener noreferrer"
                     className="project-link"
                     style={{
-                      color: "inherit",
                       textDecoration: "underline",
                       fontSize: "1rem"
                     }}
@@ -190,7 +188,6 @@ function Projects() {
                         width: "100%",
                         height: "auto",
                         borderRadius: "8px",
-                        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
                         display: "block"
                       }}
                       onError={(e) => {

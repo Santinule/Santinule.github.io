@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <ClickSpark
-        sparkColor='#fff'
+        sparkColor='#1a1a1a'
         sparkSize={10}
         sparkRadius={15}
         sparkCount={8}

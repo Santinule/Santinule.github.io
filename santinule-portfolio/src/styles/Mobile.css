@@ -24,74 +24,47 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #3a4a57;
+    background-color: #ffffff;
     z-index: 1000;
   }
-  
+
   .mobile-nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid #e2e8f0;
   }
-  
+
   /* Mobile Home Button */
   .mobile-nav-title {
-    font-family: 'Playfair Display', 'Crimson Text', 'Cormorant Garamond', 'Georgia', serif;
+    font-family: 'Lora', Georgia, 'Times New Roman', serif;
     font-size: 1.25rem;
-    font-weight: 400; /* Regular weight for serif elegance */
-    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+    color: #1a1a1a;
     text-decoration: none;
-    letter-spacing: 0.05em; /* More pronounced letter spacing for classical feel */
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth easing transition */
+    letter-spacing: 0.02em;
+    transition: color 0.2s ease;
     position: relative;
     padding: 0.25rem 0;
   }
-  
-  /* Elegant hover effect */
+
   .mobile-nav-title:hover {
-    color: white;
-    letter-spacing: 0.08em; /* More pronounced expansion on hover */
-    transform: translateY(-1px); /* Subtle lift effect */
+    color: #000000;
   }
-  
-  /* Optional: Add a subtle underline effect */
-  .mobile-nav-title::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
-    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .mobile-nav-title:hover::after {
-    width: 100%;
-  }
-  
-  /* Refined typography treatment - optional alternative style */
-  .mobile-nav-title.refined {
-    font-family: 'Georgia', 'Times New Roman', serif; /* More elegant serif font */
-    font-style: italic;
-    font-weight: 400;
-    font-size: 1.25rem;
-  }
-  
+
   .mobile-menu-button {
     background: none;
     border: none;
-    color: white;
+    color: #1a1a1a;
     font-size: 1.5rem;
     cursor: pointer;
   }
-  
+
   .mobile-menu {
     display: none;
     padding: 1rem;
-    background-color: #2d3a46;
+    background-color: #ffffff;
   }
   
   .mobile-menu.open {
@@ -106,16 +79,16 @@
   }
   
   .mobile-nav-link {
-    color: rgba(255, 255, 255, 0.8);
+    color: #718096;
     text-decoration: none;
     font-size: 1.125rem;
     padding: 0.5rem 0;
   }
-  
+
   .mobile-nav-link:hover {
-    color: white;
+    color: #000000;
   }
-  
+
   /* Mobile Social Links Section */
   .mobile-social-links {
     display: flex;
@@ -123,46 +96,46 @@
     gap: 0.75rem;
     padding-top: 1.5rem;
     margin-top: 1.5rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Separator line */
+    border-top: 1px solid #e2e8f0; /* Separator line */
   }
-  
+
   .mobile-social-link {
     display: flex;
     align-items: center;
-    color: rgba(255, 255, 255, 0.8);
+    color: #718096;
     text-decoration: none;
     font-size: 1.125rem;
     padding: 0.5rem 0;
     transition: color 0.2s ease;
   }
-  
+
   .mobile-social-link:hover {
-    color: white;
+    color: #000000;
   }
-  
+
   .mobile-social-link .social-icon {
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
-  
+
   /* Social icons in mobile navbar */
   .mobile-social-icons {
     display: flex;
     align-items: center;
     gap: 1rem;
   }
-  
+
   .mobile-icon-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.8);
+    color: #718096;
     transition: color 0.2s ease;
   }
-  
+
   .mobile-icon-link:hover {
-    color: white;
+    color: #000000;
   }
   
   /* Make sure the social icons don't get too large on mobile */

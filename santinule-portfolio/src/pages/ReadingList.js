@@ -98,14 +98,13 @@ function ReadingList() {
           <div key={index} className="project-item">
             <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
               <div 
-                style={{ 
-                  width: "100px", 
-                  height: "150px", 
-                  flexShrink: 0, 
-                  borderRadius: "8px", 
+                style={{
+                  width: "100px",
+                  height: "150px",
+                  flexShrink: 0,
+                  borderRadius: "8px",
                   overflow: "hidden",
-                  boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                  backgroundColor: "rgba(0, 0, 0, 0.2)",
+                  backgroundColor: "#f0f0f0",
                   display: "block"
                 }}
               >
@@ -126,9 +125,10 @@ function ReadingList() {
               <div className="book-details">
                 <h3 className="project-title">{book.title}</h3>
                 <p className="book-author">by {book.author}</p>
-                {book.category && <span style={{ 
+                {book.category && <span style={{
                   display: "inline-block",
-                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  backgroundColor: "#f0f0f0",
+                  color: "#4a5568",
                   padding: "4px 8px",
                   borderRadius: "4px",
                   fontSize: "0.8rem",
