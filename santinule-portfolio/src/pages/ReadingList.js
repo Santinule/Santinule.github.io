@@ -135,6 +135,7 @@ function ReadingList() {
         selectedIndex={selectedIndex}
         onSelect={handleSelect}
       />
+      <p className="shelf-hint">Tap a book to see more about it.</p>
 
       {selectedBook && (
         <div className="book-info-panel" ref={panelRef}>
