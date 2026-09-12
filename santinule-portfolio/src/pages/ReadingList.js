@@ -126,7 +126,7 @@ function ReadingList() {
           Losing myself in a book has provided a cloudless calm in my life.
         </p>
         <p className="bio-text">
-          Below is a shelf of the books I have enjoyed most, and I would suggest to anyone.
+          Below is a shelf of the books I've enjoyed most and would recommend to anyone.
         </p>
       </div>
 
