@@ -2,12 +2,22 @@ import React, { useState } from 'react';
 import doc2tableLogo from '../assets/proj_images/doc2table_Logo.avif';
 import vgg16 from '../assets/proj_images/vgg16.avif';
 import rayTracing from '../assets/proj_images/ray-tracing-image-1.jpg';
+import articulateLogo from '../assets/proj_images/articulate-logo.avif';
 
 
 function Projects() {
   const [currentImageIndex, setCurrentImageIndex] = useState({});
 
   const projects = [
+    {
+      title: "Articulate",
+      links: [
+        { url: "https://apps.apple.com/us/app/articulate-vocabulary-mastery/id6759561001", label: "Articulate" }
+      ],
+      images: [articulateLogo],
+      description: "Articulate is an iOS app that helps you build a stronger vocabulary through active learning instead of flashcard-style memorization. It surfaces sophisticated, useful words and has you practice them in real context through quick interactive exercises and game modes, backed by a recommendation algorithm that learns your vocabulary style and adapts what it surfaces next.",
+      whatIDid: "Led backend development of Articulate: designed the recommendation algorithm, built the backend, designed the database schemas and models, built the data pipelines that curate and power the app's vocabulary content, and developed the app's 2D and 3D front-end animations."
+    },
     {
       title: "Ray Tracing Engine",
       link: "",
@@ -185,10 +195,13 @@ function Projects() {
                       src={currentImage}
                       alt={`${project.title} - ${currentIndex + 1}`}
                       style={{
-                        width: "100%",
+                        width: "auto",
                         height: "auto",
+                        maxWidth: "100%",
+                        maxHeight: "500px",
                         borderRadius: "8px",
-                        display: "block"
+                        display: "block",
+                        margin: "0 auto"
                       }}
                       onError={(e) => {
                         e.target.onerror = null;
