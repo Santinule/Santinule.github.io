@@ -7,6 +7,7 @@ import Random_walk from '../assets/books/Random_walk.avif';
 import zeroToOne from '../assets/books/zero_to_one.avif';
 import thecourageToBeDisliked from '../assets/books/the_courage_to_be_disliked.avif';
 import everythingIsFucked from '../assets/books/eif.avif';
+import TEOC from '../assets/books/TEOC.avif';
 import Bookshelf from '../components/Bookshelf';
 
 
@@ -86,6 +87,15 @@ function ReadingList() {
       description: "I found this book particularly relevant to the struggles our society faces in the 21st century. Manson poses the problem of ‘lost hope’ by extrapolating from Nietzsche’s arguments on cultural evolution. He then turns to Kant’s ideas on rational moral frameworks as a possible guide to restoring hope. Finally, he posits a bridge between Kant’s ideals and modern psychology. Manson’s writing astonishes me as he makes rational arguments for modern problems, weaving in history and philosophy while balancing a contemporary and philosophical writing style. I would also recommend his blog.",
       coverImage: everythingIsFucked,
       spineColor: "#3aa9a4",
+      textColor: "#1a1a1a"
+    },
+    {
+      title: "The Ecology of Commerce: A Declaration of Sustainability",
+      author: "Paul Hawken",
+      category: "Sustainability",
+      description: "This book shifted my perspective to see sustainability as a design problem, providing hope for how we will deal with the climate crisis. It makes the point that those who restore, rather than deplete, will end up with the economic advantage.",
+      coverImage: TEOC,
+      spineColor: "#f4f7ee",
       textColor: "#1a1a1a"
     }
   ];
