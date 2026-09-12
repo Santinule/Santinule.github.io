@@ -15,8 +15,9 @@ function Projects() {
         { url: "https://apps.apple.com/us/app/articulate-vocabulary-mastery/id6759561001", label: "Articulate" }
       ],
       images: [articulateLogo],
+      imageMaxHeight: 380,
       description: "Articulate is an iOS app that helps you build a stronger vocabulary through active learning instead of flashcard-style memorization. It surfaces sophisticated, useful words and has you practice them in real context through quick interactive exercises and game modes, backed by a recommendation algorithm that learns your vocabulary style and adapts what it surfaces next.",
-      whatIDid: "Led backend development of Articulate: designed the recommendation algorithm, built the backend, designed the database schemas and models, built the data pipelines that curate and power the app's vocabulary content, and developed the app's 2D and 3D front-end animations."
+      whatIDid: "Led backend development of Articulate: designed the recommendation algorithm, coded the backend, designed the database schemas and models, coded the data pipelines that curate and power the app's vocabulary content, and developed the app's 2D and 3D front-end animations."
     },
     {
       title: "Ray Tracing Engine",
@@ -198,7 +199,7 @@ function Projects() {
                         width: "auto",
                         height: "auto",
                         maxWidth: "100%",
-                        maxHeight: "500px",
+                        maxHeight: `${project.imageMaxHeight || 500}px`,
                         borderRadius: "8px",
                         display: "block",
                         margin: "0 auto"
